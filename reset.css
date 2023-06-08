@@ -42,19 +42,19 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 li, a, i, figure, img, button,
-input[type=button], input[type=submit] {
+input[type="button"], input[type="submit"] {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
 }
 
-input, textarea, button {
+/* input, textarea, button {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-}
+} */
 
-input[type=button], input[type=submit], input[type=reset], button, a {
+input[type="button"], input[type="submit"], input[type="reset"], button, a {
   cursor: pointer;
 }
 
